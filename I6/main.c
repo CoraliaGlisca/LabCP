@@ -1,8 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
+#define NMAX x
 
 int main()
 {
-    printf("Hello world!\n");
+    int x, no=0, sum=0;
+    printf("x=");scanf("&d", &x);
+    while (no< NMAX)
+    {
+        no++; sum+=no;
+    }
+    printf("\n");
     return 0;
 }
